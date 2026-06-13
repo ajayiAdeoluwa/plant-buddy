@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  padding: 38px 90px 38px 90px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.logo-container > img {
+  width: 40px;
+}
+
+.logo-container > h2 {
+  font-family: poppins;
+  color: #435151;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-information {
+  color: #142f38;
+  display: flex;
+  flex-direction: row;
+  font-family: open sans;
+  font-size: 18px;
+  font-weight: 600;
+  gap: 40px;
+}
+
+.information {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 87px  0px 87px;
+}
